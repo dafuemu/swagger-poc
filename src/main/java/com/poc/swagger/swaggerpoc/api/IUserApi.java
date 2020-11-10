@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
-@RestController("/api/")
+@RestController("api")
 public interface IUserApi {
 
   @ApiResponse(responseCode = "200", description = "This is ok indeed" )
